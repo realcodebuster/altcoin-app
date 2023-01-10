@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+
+.sidebar {
+    width: 15%;
+    max-width: 15%;
+    height: 100vh;
+    background: rgba(195, 195, 195, 0.557);
+    position: fixed;
+}
+
+.sidebar_logo {
+    margin-top: 0%;
+    margin-left: 10%;
+}
+
+.sidebar_logo h3 {
+    color: rgb(0, 0, 126);
+    font-family: 'Lilita One', cursive;
+    font-size: 30px;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+.navigation_header {
+    margin-top: 10%;
+    margin-left: 10%;
+}
+
+.navigation_header p {
+    color: gray;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.navigation:hover {
+    color: gray;
+    transition: 0.5s ease-in-out;
+}
+
+.sidebar_balances {
+    margin-top: 15%;
+}
+
+.balance_header p {
+    margin-left: 10%;
+    color: gray;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.balances {
+    display: flex;
+    gap: 1em;
+    margin-top: 10%;
+    color: rgb(94, 94, 94);
+    cursor: pointer;
+    margin-left: 10%;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.country_image {
+    width: 5vh;
+}
+
+.settings {
+    width: 12.8%;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-top: 20vh;
+    background: gray;
+    padding: 1em;
+}
+
