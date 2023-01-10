@@ -4,7 +4,6 @@
     width: 85%;
     position: absolute;
     top: 10vh;
-    position: fixed;
     height: 83vh;
     background: none;
 }
@@ -69,8 +68,9 @@
     border-radius: 5px;
     border: 1.5px solid lightgray;
     max-height: 20vh;
-    padding-bottom: 0.5em;
+    padding: 0.5em;
     cursor: pointer;
+    height: auto;
 }
 
 .left:hover {
@@ -125,6 +125,8 @@
     border: 1.5px solid lightgray;
     max-height: 20vh;
     cursor: pointer;
+    height: auto;
+    padding: 0.5em;
 }
 
 .right:hover {
@@ -179,7 +181,7 @@
     border: 1.5px solid lightgray;
     margin-top: 5%;
     border-radius: 5px;
-    max-height: 45%;
+    max-height: 43%;
     cursor: pointer;
     padding:4px;
     overflow-x: hidden;

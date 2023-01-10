@@ -2,7 +2,6 @@ import React from 'react'
 import SidebarLogo from './SidebarLogo'
 import SidebarNavigation from './SidebarNavigation'
 import SidebarBalances from './SidebarBalances'
-import SidebarSettings from './SidebarSettings'
 import DashboardIcon from '@mui/icons-material/Dashboard';
 import ManageAccountsIcon from '@mui/icons-material/ManageAccounts';
 import AddCardIcon from '@mui/icons-material/AddCard';
@@ -80,14 +79,6 @@ const Sidebar = () => {
         },
     ]
 
-    const sidebarSettings = [
-        {
-            id: 1,
-            title: settingsText[0],
-            icon: <SettingsTwoToneIcon />,
-        }
-    ]
-
 
   return (
     <div className='sidebar'>
@@ -97,9 +88,6 @@ const Sidebar = () => {
         />
         <SidebarBalances 
             content={sidebarBalance}
-        />
-        <SidebarSettings 
-            content={sidebarSettings}
         />
     </div>
   )

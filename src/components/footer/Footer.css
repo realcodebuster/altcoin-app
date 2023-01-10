@@ -1,13 +1,14 @@
 footer {
     margin-left: 15%;
     position: absolute;
-    top: 93vh;
     position: fixed;
+    top: 93vh;
     width: 85%;
     height: 7vh;
     display: flex;
     box-shadow: 0 0.5rem 1rem gray;
     align-items: center;
+    background: rgb(177, 177, 177);
 }
 
 .footer_left {

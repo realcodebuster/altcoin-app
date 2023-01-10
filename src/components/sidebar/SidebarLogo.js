@@ -1,5 +1,4 @@
 import React from 'react'
-import Logo from './coin.png'
 import './Sidebar.css'
 
 const SidebarLogo = () => {

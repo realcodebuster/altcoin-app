@@ -39,7 +39,7 @@ const MainTop = () => {
     <div className='main_top'>
         <div className="main_top_left">
             {balanceDetails.map((balance) => (
-                <h1 key={Math.random()}>{balance.symbol}{balance.amount}</h1>
+                <h1 key='1'>{balance.symbol}{balance.amount}</h1>
             ))}
             <p>Total balance from all accounts <span onClick={handleBalanceChange}>{balanceDetails.map((balance) => (
                  balance.currency

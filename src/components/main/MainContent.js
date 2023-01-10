@@ -1,7 +1,6 @@
 import React from 'react'
 import MainContentLeft from './MainContentLeft'
 import MainContentRight from './MainContentRight'
-import Logo from './coin.png'
 import './Main.css'
 import Mastercard from './mastercard.png'
 import Visa from './visa.png'
