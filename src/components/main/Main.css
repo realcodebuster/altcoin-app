@@ -124,9 +124,9 @@
     border-radius: 5px;
     border: 1.5px solid lightgray;
     max-height: 20vh;
+    padding: 0.5em;
     cursor: pointer;
     height: auto;
-    padding: 0.5em;
 }
 
 .right:hover {
@@ -141,7 +141,7 @@
     margin-right: 1em;
 }
 
-.right .header p {
+.header p {
     margin-top: auto;
     margin-bottom: auto;
     color: gray;
@@ -149,7 +149,6 @@
 
 .spending {
     color: red;
-    padding: 0.2em;
 }
 
 .spending:hover {
@@ -171,11 +170,12 @@
     font-weight: 900;
 }
 
-.right .botttom p {
+.bottom p {
     margin-top: auto;
     margin-bottom: auto;
     font-weight: bold;
 }
+
 
 .bottom_info {
     border: 1.5px solid lightgray;

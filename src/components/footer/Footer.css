@@ -2,9 +2,9 @@ footer {
     margin-left: 15%;
     position: absolute;
     position: fixed;
-    top: 93vh;
+    top: 90vh;
     width: 85%;
-    height: 7vh;
+    height: 10vh;
     display: flex;
     box-shadow: 0 0.5rem 1rem gray;
     align-items: center;
