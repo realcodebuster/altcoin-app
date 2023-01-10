@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/altcoin-app/static/css/main.6b8db24f.css",
+    "main.js": "/altcoin-app/static/js/main.6e1cfe1e.js",
+    "static/media/usa.png": "/altcoin-app/static/media/usa.5fdc794634c82f3945ee.png",
+    "static/media/verve.png": "/altcoin-app/static/media/verve.2a835eca12e0d384101b.png",
+    "static/media/mastercard.png": "/altcoin-app/static/media/mastercard.262ad69481e810b73f39.png",
+    "static/media/nigeria.png": "/altcoin-app/static/media/nigeria.be738c3ddd5ca08ab4f6.png",
+    "static/media/paypal.png": "/altcoin-app/static/media/paypal.25b341e7e8db7bd5e1e5.png",
+    "index.html": "/altcoin-app/index.html",
+    "main.6b8db24f.css.map": "/altcoin-app/static/css/main.6b8db24f.css.map",
+    "main.6e1cfe1e.js.map": "/altcoin-app/static/js/main.6e1cfe1e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6b8db24f.css",
+    "static/js/main.6e1cfe1e.js"
+  ]
+}
