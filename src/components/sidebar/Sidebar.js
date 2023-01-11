@@ -10,7 +10,6 @@ import PaymentIcon from '@mui/icons-material/Payment';
 import ReceiptIcon from '@mui/icons-material/Receipt';
 import CurrencyBitcoinIcon from '@mui/icons-material/CurrencyBitcoin';
 import ReportIcon from '@mui/icons-material/Report';
-import SettingsTwoToneIcon from '@mui/icons-material/SettingsTwoTone';
 import UsaFlag from './usa.png'
 import NigeriaFlag from './nigeria.png'
 import './Sidebar.css'

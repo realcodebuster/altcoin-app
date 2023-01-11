@@ -2,6 +2,7 @@ import React from 'react'
 import LanguageIcon from '@mui/icons-material/Language';
 import './Footer.css'
 import ExitToAppIcon from '@mui/icons-material/ExitToApp';
+import SettingsTwoToneIcon from '@mui/icons-material/SettingsTwoTone';
 
 const Footer = () => {
   return (
@@ -22,6 +23,7 @@ const Footer = () => {
             <p>English</p>
             <LanguageIcon />
             </div>
+            <p><SettingsTwoToneIcon /></p>
             <p><ExitToAppIcon /></p>
         </div>
     </footer>

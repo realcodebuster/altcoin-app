@@ -44,7 +44,7 @@ footer {
     display: flex;
     margin-left: auto;
     margin-right: 5%;
-    gap: 3em;
+    gap: 2em;
 }
 
 .footer_right p {
