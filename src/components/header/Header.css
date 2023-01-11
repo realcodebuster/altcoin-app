@@ -14,7 +14,7 @@ header {
 }
 
 .header_left h1 {
-    font-size: 20px;
+    font-size: 1.5rem;
     font-family: 'Rubik', sans-serif;
 }
 
@@ -87,4 +87,41 @@ header {
 
 .user:hover {
     background: rgba(224, 223, 223, 0.441);
+}
+
+@media (max-width: 1200px) {
+    header {
+        margin-left: 5%;
+        width: 95%;
+    }
+}
+
+@media (max-width: 600px) {
+    header {
+        margin-left: 10%;
+        width: 90%;
+    }
+
+    .search {
+        width: 20vh;
+    }
+
+    .search input {
+        width: 15vh;
+    }
+}
+
+@media (max-width: 500px) {
+    .search input{
+        display: none;
+    }
+
+    .search {
+        width: 5vh;
+        justify-content: center;
+    }
+
+    .header_right {
+        gap: 0.5em;
+    }
 }

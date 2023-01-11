@@ -20,48 +20,54 @@ const Sidebar = () => {
 
     const sidebarBalancesAmounts = ['120,420.50 USD', '745, 635.23 NGN']
 
-    const settingsText = ['Profile Settings']
-
     const sidebarNav = [
         {
             id: 1,
             title: sidebarNavLinks[0],
             icon: <DashboardIcon />,
+            isActive: true,
         },
         {
             id: 2,
             title: sidebarNavLinks[1],
             icon: <ManageAccountsIcon />,
+            isActive: false,
         },
         {
             id: 3,
             title: sidebarNavLinks[2],
             icon: <AddCardIcon />,
+            isActive: false,
         },
         {
             id: 4,
             title: sidebarNavLinks[3],
             icon: <PaidIcon />,
+            isActive: false,
         },
         {
             id: 5,
             title: sidebarNavLinks[4],
             icon: <PaymentIcon />,
+            isActive: false,
         },
         {
             id: 6,
             title: sidebarNavLinks[5],
             icon: <ReceiptIcon />,
+            isActive: false,
         },
         {
             id: 7,
             title: sidebarNavLinks[6],
             icon: <CurrencyBitcoinIcon />,
+            isActive: false,
         },
         {
             id: 8,
             title: sidebarNavLinks[7],
             icon: <ReportIcon />,
+            isActive: false,
         }
     ]
 

@@ -14,6 +14,7 @@ const SidebarNavigation = ({ content }) => {
                     key={items.id}
                     title={items.title}
                     icon={items.icon}
+                    style={items.style}
                 />
             ))}
         </div>

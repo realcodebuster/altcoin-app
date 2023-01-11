@@ -3,7 +3,7 @@
 .sidebar {
     width: 15%;
     max-width: 15%;
-    height: 100vh;
+    height: 100%;
     background: rgba(195, 195, 195, 0.557);
     position: fixed;
 }
@@ -16,9 +16,19 @@
 .sidebar_logo h3 {
     color: rgb(0, 0, 126);
     font-family: 'Lilita One', cursive;
-    font-size: 30px;
+    font-size: 2rem;
     cursor: pointer;
     letter-spacing: 1px;
+}
+
+.sidebar_logo span {
+    color: rgb(0, 0, 126);
+    font-family: 'Lilita One', cursive;
+    font-size: 2rem;
+    cursor: pointer;
+    letter-spacing: 1px;
+    text-align: end;
+    display: none;
 }
 
 .navigation_header {
@@ -54,9 +64,103 @@
     cursor: pointer;
     margin-left: 10%;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 0.9rem;
 }
 
 .country_image {
     width: 5vh;
+}
+
+.navigation {
+    margin-left: 10%;
+    gap: 1em;
+    margin-top: 10%;
+}
+
+
+@media (max-width: 1200px) {
+    .sidebar {
+        max-width: 5%;
+    }
+
+    .sidebar_logo {
+        margin-left: 0;
+    }
+
+    .sidebar_logo h3 {
+        display: none;
+    }
+
+    .sidebar_logo span {
+        display: flex;
+        justify-content: center;
+        margin-top: 20%;
+        background: gray;
+        width: fit-content;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 0.5em;
+        padding-right: 0.5em;
+        padding-bottom: 0.2em;
+        border-radius: 100px;
+    }
+
+    .navigation_header p {
+        display: none;
+    }
+
+    .navigation {
+        display: flex;
+        justify-content: center;
+        margin-left: 0;
+        gap: 5em;
+        margin-top: 40%;
+    }
+
+    .navigation span {
+        display: none;
+    }
+
+
+    .balances span {
+        display: none;
+    }
+
+    .balances {
+        justify-content: center;
+        margin-left: 0;
+        margin-top: 40%;
+    }
+
+    .balance_header p {
+        display: none;
+    }
+
+}
+
+@media (max-width: 975px) {
+    .sidebar_logo span {
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 0.2em;
+        padding-right: 0.2em;
+        padding-bottom: 0.2em;
+        border-radius: 100px;
+    }
+}
+
+@media (max-width: 767px) {
+    .navigation_links{
+        margin-top: 5vh;
+    }
+
+    .sidebar_balances {
+        margin-top: 5vh;
+    }
+}
+
+@media (max-width: 600px) {
+    .sidebar {
+        max-width: 10%;
+    }
 }

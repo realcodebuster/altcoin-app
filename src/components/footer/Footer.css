@@ -52,3 +52,38 @@ footer {
     margin-bottom: auto;
     cursor: pointer;
 }
+
+
+@media (max-width: 1200px) {
+    footer {
+        margin-left: 5%;
+        width: 95%;
+    }
+}
+
+@media (max-width: 975px) {
+    .footer_left p {
+        display: none;
+    }
+}
+
+@media (max-width: 600px) {
+    footer {
+        margin-left: 10%;
+        width: 90%;
+    }
+
+    .footer_left ul {
+        display: none;
+    }
+
+    .footer_left p {
+        display: flex;
+    }
+}
+
+@media (max-width: 500px) {
+    footer {
+        display: none;
+    }
+}
