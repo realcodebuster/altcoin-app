@@ -74,7 +74,6 @@
     cursor: pointer;
     height: auto;
     box-shadow: 0 0.5rem 0.5rem gray;
-    width: fit-content;
 }
 
 .left:hover {
@@ -125,7 +124,6 @@
 }
 
 .right {
-    margin-right: 5%;
     border-radius: 5px;
     border: 1.5px solid lightgray;
     max-height: 20vh;
@@ -341,7 +339,7 @@
 
 @media (max-width: 975px) {
     .main_content {
-        grid-template-columns: 3fr;
+        grid-template-columns: 1fr;
         gap: 0;
         margin-right: 5%;
     }
@@ -365,10 +363,22 @@
 
 @media (max-width: 500px) {
     .top_info {
-        gap: 0.5em;
+        gap: 2em;
         margin-right: 10%;
+        grid-template-columns: 1fr;
+        justify-content: center;
+        margin-right: 0;
     }
     .main_top_right {
         display: none;
+    }
+
+    .bottom_info {
+        margin-right: 0;
+    }
+
+    .main_content_right {
+        margin-right: 0;
+        margin-top: 5vh;
     }
 }
